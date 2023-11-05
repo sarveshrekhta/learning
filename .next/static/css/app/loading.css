@@ -1,0 +1,381 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./styles/skeleton.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+
+/* .progress {
+  background: rgba(255,255,255,0.1);
+  justify-content: flex-start;
+  border-radius: 0;
+  align-items: center;
+  position: absolute;
+  padding: 0;
+  display: flex;
+  height: 10px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+.progress-value {
+  animation: load 3s normal forwards;
+     border-radius: 100px;
+  background: #FF9A93;
+  height: 4px;
+  width: 0;
+} */
+
+.containerTop{
+  max-width: 1360px;
+  padding: 0px 24px;
+  margin: 50px auto 50px;
+}
+.containerSkeleton{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1360px;
+  padding: 0px 24px;
+  margin: 0px auto 0;
+  justify-content: space-around;
+}
+
+.col-md-3{
+  flex: 0 0 30%;
+}
+
+@keyframes load {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+
+#lottie-container:first-child{
+  display: none;
+}
+
+
+
+
+  .movie--isloading {
+    height: 362px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 15px;
+
+  }
+  .movie--isloading1 {
+    height: 50px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+  .movie--isloading .loading-image {
+    height: 250px;
+    background-image: linear-gradient(90deg, #ececec 0px, #f4f4f4 40px, #ececec 80px);
+    background-size: 300px;
+    animation: shine-loading-image 2s infinite ease-out;
+  }
+
+  .movie--isloading .loading-content {
+    background: #f7f7f7;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .movie--isloading .loading-content .loading-text-container {
+    flex-basis: 100%;
+  }
+
+  .movie--isloading .loading-content .loading-main-text {
+    height: 10px;
+    width: 65%;
+    margin-bottom: 10px;
+    background: #ececec;
+    background-image: linear-gradient(90deg, #ececec 0px, #ddd 40px, #ececec 80px);
+    background-size: 250px;
+    border-radius: 10px;
+    animation: shine-loading-container-items 2s infinite ease-out;
+  }
+
+  .movie--isloading .loading-content .loading-sub-text {
+    height: 10px;
+    width: 50%;
+    background: #ececec;
+    background-image: linear-gradient(90deg, #ececec 0px, #ddd 40px, #ececec 80px);
+    background-size: 250px;
+    border-radius: 10px;
+    animation: shine-loading-container-items 2s infinite ease-out;
+  }
+
+  .movie--isloading .loading-content .loading-btn {
+    width: 60px;
+    height: 25px;
+    background: #ececec;
+    background-image: linear-gradient(90deg, #ececec 0px, #ddd 40px, #ececec 80px);
+    background-size: 250px;
+    border-radius: 3px;
+    animation: shine-loading-container-items 2s infinite ease-out;
+  }
+
+
+  @keyframes shine-loading-image {
+    0% {
+      background-position: -32px;
+    }
+    40%, 100% {
+      background-position: 208px;
+    }
+  }
+
+  @keyframes shine-loading-container-items {
+    0% {
+      background-position: -100px;
+    }
+    40%, 100% {
+      background-position: 140px;
+    }
+  }
+
+
+  .skeletonWrapper{
+    max-width: 1360px;
+    margin: 150px auto 0;
+
+}
+.skeletonWrapper2{
+  max-width: 1360px;
+  margin: 40px auto 0;
+}
+.skeletonWrapper3{
+  max-width: 1360px;
+  margin: 140px auto 0;
+}
+.skeleton-center {
+    margin: 0 ;
+}
+.skeleton {
+    animation: skeleton-loading 1s linear infinite alternate;
+  }
+
+  @keyframes skeleton-loading {
+    0% {
+      background-color: #d4d1c6;
+    }
+    100% {
+      background-color: #EFEAD8;
+    }
+  }
+
+  .skeleton-text {
+    width: 100%;
+    height: 0.7rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+  }
+
+  .skeleton-text__body {
+    width: 75%;
+  }
+  .skeleton-div1{
+    width: 524px;
+    height: 27px;
+    margin-bottom: 14px;
+  }
+  .skeleton-div2{
+    width: 520px;
+    height: 27px;
+    margin-bottom: 14px;
+  }
+  .skeleton-div3{
+    width: 612px;
+    height: 27px;
+    margin-bottom: 14px;
+  }
+  .skeleton-div4{
+    margin-bottom: 43px;
+    width: 257px;
+    height: 27px;
+  }
+
+  .skeleton-div5{
+    width: 164px;
+    height: 50px;
+    margin-bottom: 250px;
+  }
+
+  .skeleton-div6{
+    width: 100%;
+    height: 200px;
+  }
+
+  /*all product*/
+
+  .breadcrumbBar{
+    width: 223px;
+    height: 24px;
+  }
+
+  .headingBar{
+    width: 221px;
+height: 44px;
+margin: 50px 0;
+  }
+
+  .skeletonImg{
+    width: 100%;
+    height: 240px;
+    margin-bottom: 22px;
+    border-radius: 24px;
+  }
+  .skeletonProductBoxWrapper{
+    display: flex;
+    justify-content: space-between;
+  }
+  .skeletonProductBox{
+    flex: 0 0 32%;
+  }
+
+  .skeletonTitle{
+    width: 100%;
+    height: 24px;
+    margin: 12px 0;
+  }
+  .skeletonButtonDiv{
+    display: flex;
+    margin-top: 24px;
+  }
+
+  .skeletonButton{
+    width: 126px;
+    height: 48px;
+  }
+
+  .skeletonButton2{
+    width: 153px;
+    height: 48px;
+    margin-left: 20px;
+  }
+
+
+  /*lending page*/
+
+.skeletonwrapperDetailsPage{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 58px;
+}
+
+.skeletonAreaLeft{
+  flex: 0 0 25%;
+  margin-top: 80px;
+}
+
+.skeletonArearight{
+  flex: 0 0 65%;
+}
+
+.skeletonBanner{
+  width: 933px;
+height: 525px;
+border-radius: 36px;
+}
+
+.skeleton-div11{
+
+  height: 90px;
+  margin-bottom: 20px;
+}
+.skeleton-div22{
+
+  height: 27px;
+  margin-bottom: 4px;
+}
+.skeleton-div33{
+
+  height: 27px;
+  margin-bottom: 4px;
+}
+.skeleton-div44{
+  height: 27px;
+  width: 257px;
+  height: 27px;
+}
+
+.skeleton-div55{
+  width: 164px;
+  height: 50px;
+  margin-bottom: 250px;
+}
+
+.skeleton-div100{
+  width: 100%;
+  height: 25px;
+  margin-bottom: 22px;
+}
+
+
+/*common*/
+
+.skeleton-div100-1{
+  height: 24px;
+  margin-bottom: 12px;
+}
+
+.skeleton-div100-2{
+  height: 110px;
+  margin-bottom: 12px;
+}
+
+.skeletonCommonBox{
+  margin-bottom: 80px;
+}
+
+
+@media screen and (max-width: 680px) {
+  .skeleton-div1 {
+    width: 70%;
+}
+.skeleton-div2 {
+  width: 80%;
+}
+.skeleton-div3 {
+  width: 100%;
+}
+.skeleton-div4 {
+  width: 40%;
+}
+
+.skeletonProductBox {
+  flex: 0 0 100%;
+}
+.skeletonProductBoxWrapper {
+  display: block;
+}
+.skeletonAreaLeft {
+  flex: 0 0 100%;
+  margin-top: 40px;
+}
+.skeletonArearight {
+  display: none;
+}
+.skeletonwrapperDetailsPage {
+  display: block;
+ margin-top: 38px;
+}
+.skeleton-div100{
+  margin-bottom: 12px;
+}
+
+
+.skeletonWrapper{
+padding: 0 15px;
+
+}
+.skeletonWrapper2{
+  padding: 0 15px;
+}
+.skeletonWrapper3{
+  padding: 0 15px;
+}
+}
